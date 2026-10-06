@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Dinossauro</title>
+  <desc id="desc">Ilustração estilizada de um dinossauro em um fundo suave.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eaf7ff"/>
+      <stop offset="100%" stop-color="#fef7e9"/>
+    </linearGradient>
+    <linearGradient id="dino" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4d8ec7"/>
+      <stop offset="100%" stop-color="#2a5d8f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="480" rx="36" fill="url(#bg)"/>
+  <circle cx="510" cy="90" r="56" fill="#f9d77f" opacity="0.8"/>
+  <circle cx="126" cy="110" r="38" fill="#bfe3d3" opacity="0.75"/>
+
+  <g transform="translate(60 70)">
+    <ellipse cx="275" cy="295" rx="210" ry="46" fill="#dfeff7"/>
+
+    <path d="M82 260 L170 208 L240 175 L290 178 L356 155 L422 172 L454 196 L462 225 L404 236 L370 256 L321 278 L248 286 L161 291 Z" fill="url(#dino)"/>
+
+    <path d="M246 175 L286 136 L306 113 L327 90 L370 96 L377 130 L339 140 L314 172 Z" fill="#3a7ab0"/>
+    <path d="M349 126 L407 85 L440 117 L390 142 Z" fill="#2d5d8d"/>
+
+    <path d="M371 164 L450 141 L483 166 L444 187 Z" fill="#2d5d8d"/>
+    <path d="M386 189 L454 183 L497 208 L447 222 Z" fill="#3e89bf"/>
+
+    <circle cx="321" cy="156" r="8" fill="#fff"/>
+    <circle cx="324" cy="153" r="3" fill="#1f2b3d"/>
+
+    <path d="M160 247 L118 291 L96 285 L125 221 Z" fill="#3c7bb0"/>
+    <path d="M154 245 L98 255 L82 228 L130 209 Z" fill="#4b8fc4"/>
+
+    <path d="M160 246 L205 246 L220 270 L169 271 Z" fill="#3b7db5"/>
+    <path d="M203 247 L250 250 L267 286 L213 286 Z" fill="#3b7db5"/>
+
+    <path d="M275 246 L318 247 L335 289 L287 289 Z" fill="#2c669f"/>
+    <path d="M322 246 L372 246 L391 285 L334 286 Z" fill="#3878b0"/>
+
+    <path d="M438 196 L498 184 L542 215 L480 230 Z" fill="#3d77a7"/>
+
+    <path d="M486 219 L546 237 L552 274 L491 260 Z" fill="#2b5a87"/>
+
+    <path d="M455 200 L425 239 L435 252 L468 220 Z" fill="#f2b96a"/>
+
+    <path d="M180 164 L212 134 L226 156 L194 180 Z" fill="#f0b968"/>
+    <path d="M192 172 L223 182 L208 205 L174 196 Z" fill="#f9d98d"/>
+
+    <path d="M134 218 L106 208 L88 184 L118 174 L148 196 Z" fill="#f9d98d"/>
+    <path d="M107 210 L81 196 L73 172 L99 162 L125 183 Z" fill="#f4c56d"/>
+
+    <path d="M214 112 L244 96 L252 120 L227 139 Z" fill="#f2c46d"/>
+    <path d="M223 128 L252 132 L258 156 L229 152 Z" fill="#f9d98d"/>
+  </g>
+</svg>
